@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+    <style>
+        /* #main p{
+            color: blue;
+        } */
+        /* #inside p{
+            color: rgb(0, 255, 234);
+        } */
+        /* #main > p{
+            color: pink;
+        } */
+        /*#main + p{
+            background-color: green;
+        }*/
+        /* #main ~ p{
+            background-color: rgb(251, 0, 255);
+
+        } */
+        /* a{
+            color: brown;
+        }
+        a:link{
+            text-decoration: none; font-size: 20px;
+        }
+        a:hover{
+            color: orange; font-size: 25px;
+        } */
+        /*a:visited{
+            color:black;
+        }*/
+        #second .odd{
+            color: red;
+        }
+        #second p:nth-child(even){
+            color: pink;
+        }
+        #main p::first-letter{
+            color:aquamarine; font-size: 20px;
+        }
+        #main p::first-line{
+            color: blue; font-size: 10px;
+        }
+        #main p::before{
+            content: "readmore";
+            color: blueviolet;
+            font-size: 40px;
+        }
+        a[alt{
+            color: crimson;
+
+        }]
+
+        
+
+    </style>
+</head>
+<body>
+    <!--combinators-->
+    <div id="main"><!--div 1st-->
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum facilis architecto nisi culpa aut consequatur obcaecati aspernatur a nostrum molestias quam accusamus odit dicta voluptatibus, voluptatum vel beatae at voluptatem.
+        </p>
+        <div id="inside"><!--div inside-->
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur laborum quia porro dolor nulla odit asperiores expedita vitae, repellat veritatis tempora doloribus maiores fugit obcaecati? Cumque officiis amet maxime magni!
+            </p>
+        </div>
+     
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur facilis inventore nemo quaerat earum veniam molestias. Magnam error consectetur nulla, dicta quos, consequuntur fugiat atque aspernatur vero iusto quae totam.
+    </p>
+
+    <a href="#">my page</a>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eum et error nulla voluptatem laudantium velit eveniet illum, optio aspernatur corrupti voluptatum iste repellat aliquid quisquam totam. Cum, molestias harum.
+    </p>
+    <div id="second">
+        <p class="odd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est sapiente animi cupiditate placeat numquam. Nulla eaque eveniet vel debitis in, optio culpa laudantium aspernatur. Repudiandae doloremque vel hic corporis cupiditate?</p>
+
+        <p class="even">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia illum consectetur labore et eveniet esse distinctio quisquam vero corrupti cum? Consequatur possimus earum saepe architecto, ad facere esse rerum atque.</p>
+
+        <p class="odd">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus quod magni dicta aperiam est similique sit perspiciatis error voluptas obcaecati dolores ex dolor, maiores mollitia nobis incidunt, nam libero. Repellat.</p>
+
+        <p class="even">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci reprehenderit deleniti repellat eius aliquam dolore, quibusdam quae. Maiores facilis temporibus laborum, tenetur pariatur unde quas amet illo perferendis? Voluptatum, ullam.</p>
+
+
+    </div>
+</body>
+</html>
