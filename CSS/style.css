@@ -1,0 +1,24 @@
+body{
+    background-color: pink
+}
+p{
+    font-family: arial;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-shadow: 1px 10px 10px rgb(255, 255, 255);
+    color: rgb(197, 37, 104);
+    display: inline-block;
+}
+img{
+    border: 2px solid palevioletred; 
+    border-radius: 50%;
+    float: left;
+    box-shadow: 1px 2px 60px;
+    margin-right: 20px;
+    padding: 3px rgb(213, 16, 85);
+
+}
